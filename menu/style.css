@@ -11,7 +11,7 @@ body {
 .wppLogo {
     height: 16px;
     width: 16px;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 .cabecalho {
@@ -19,18 +19,20 @@ body {
     flex-direction: row;
 }
 
-.infosCabecalho {
-    margin-left: 65%;
+.cabecalhoTexto {
     display: flex;
-    flex-direction: row;
-    padding: 1px;
-    gap: 12px;
-    font-size: 14px;
+    flex-direction: column;
+    margin-left: 60%;
 }
 
 .telefone {
-    margin-left: 25px;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
+}
+
+.infosCabecalho {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
