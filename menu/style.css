@@ -18,12 +18,16 @@ body {
 .cabecalho {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .cabecalhoTexto {
     display: flex;
     flex-direction: column;
-    margin-left: 60%;
+    align-items: flex-end;
+    gap: 10px;
 }
 
 .telefone {
@@ -40,7 +44,7 @@ body {
 
 .botoesMenu {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .Sobre,
@@ -51,12 +55,18 @@ body {
     background-color: transparent;
     border: none;
     color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .Login {
     background-color: red;
     border-radius: 25px;
     border-style: hidden;
-    width: 100px;
+    width: 120px;
     color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    cursor: pointer;
 }
