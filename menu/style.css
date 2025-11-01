@@ -1,6 +1,7 @@
 body {
     background-color: rgb(41, 40, 40);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .imagemlogo {
@@ -35,4 +36,27 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.botoesMenu {
+    display: flex;
+    gap: 20px;
+}
+
+.Sobre,
+.Agenda,
+.Preco,
+.Equipe,
+.Contato {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.Login {
+    background-color: red;
+    border-radius: 25px;
+    border-style: hidden;
+    width: 100px;
+    color: white;
 }
