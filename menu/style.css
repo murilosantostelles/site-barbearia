@@ -12,7 +12,7 @@ body {
 .wppLogo {
     height: 16px;
     width: 16px;
-    margin-top: 16px;
+    margin-top: 14px;
 }
 
 .cabecalho {
@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    font-size: 14px;
 }
 
 .botoesMenu {
