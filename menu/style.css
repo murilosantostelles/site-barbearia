@@ -1,5 +1,6 @@
 body {
     background-color: rgb(41, 40, 40);
+    color: white;
 }
 
 .imagemlogo {
@@ -8,6 +9,28 @@ body {
 }
 
 .wppLogo {
-    height: 25px;
-    width: 25px;
+    height: 16px;
+    width: 16px;
+    margin-top: 12px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+}
+
+.infosCabecalho {
+    margin-left: 65%;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.telefone {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
