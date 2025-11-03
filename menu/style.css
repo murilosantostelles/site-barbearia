@@ -62,6 +62,9 @@ body {
     border-radius: 25px;
     border-style: hidden;
     width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .Sobre:hover,
