@@ -270,3 +270,54 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.painelEquipe {
+    background-color: white;
+    color: #333;
+    padding: 100px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.painelEquipe .titulo h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 80px;
+}
+
+.equipe-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    text-align: left;
+}
+
+.equipe-imagem img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #eee;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.parteDireita {
+    max-width: 400px;
+}
+
+.parteDireita .nome h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.parteDireita .caracteristicas p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
