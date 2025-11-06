@@ -1,4 +1,5 @@
-body {
+body,
+.body-login {
     background-color: rgb(41, 40, 40);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +16,8 @@ body {
     margin-top: 14px;
 }
 
-.cabecalho {
+.cabecalho,
+.cabecalho-login {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,23 +78,28 @@ body {
     transform: scale(1.05);
 }
 
-.Login {
+.Login,
+.Home {
+    display: flex;
     background-color: red;
     border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     border-style: hidden;
     width: 120px;
+    height: 50px;
     color: white;
     font-size: 16px;
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
-.Login:hover {
+.Login:hover,
+.Home:hover {
     background-color: rgb(95, 9, 9);
     transform: scale(1.05);
 }
-
-
 
 .painelPrincipal {
     position: relative;
@@ -380,4 +387,108 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     box-sizing: border-box;
+}
+
+
+.login-container {
+    background-color: #FF0000;
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login-card {
+    background-color: white;
+    color: #333;
+    padding: 30px 40px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-card h2 {
+    color: #5D378D;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.form-group-login {
+    margin-bottom: 15px;
+}
+
+.form-group-login input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+.form-group-login input:focus {
+    outline: none;
+    border-color: #5D378D;
+    box-shadow: 0 0 0 3px rgba(93, 55, 141, 0.2);
+}
+
+.forgot-password {
+    display: block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #5D378D;
+    text-decoration: none;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #4A2B6F;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-login-roxo {
+    background-color: #5D378D;
+}
+
+.btn-login-roxo:hover {
+    background-color: #4A2B6F;
+    transform: scale(1.05);
+}
+
+.btn-signup-vermelho {
+    background-color: #FF0000;
+}
+
+.btn-signup-vermelho:hover {
+    background-color: #CC0000;
+    transform: scale(1.05);
 }
