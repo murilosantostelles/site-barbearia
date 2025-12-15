@@ -1,8 +1,5 @@
+![Preview do Site]
 <img width="1898" height="1061" alt="image" src="https://github.com/user-attachments/assets/0368fed9-485a-438c-b6c7-fb6cd9fe1b27" /># 💈 Barbearia BO - Landing Page
-
-![Preview do Site](<img width="1898" height="1061" alt="image" src="https://github.com/user-attachments/assets/c3cbc612-e251-4240-a409-f67db18857e6" />
-)
-
 
 ## 💻 Sobre o projeto
 
