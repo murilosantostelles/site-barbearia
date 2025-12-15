@@ -1,10 +1,12 @@
-# 💈 Barbearia BO - Landing Page
+<img width="1898" height="1061" alt="image" src="https://github.com/user-attachments/assets/0368fed9-485a-438c-b6c7-fb6cd9fe1b27" /># 💈 Barbearia BO - Landing Page
 
-![Preview do Site](coloque-o-link-da-imagem-aqui.png)
+![Preview do Site](<img width="1898" height="1061" alt="image" src="https://github.com/user-attachments/assets/c3cbc612-e251-4240-a409-f67db18857e6" />
+)
+
 
 ## 💻 Sobre o projeto
 
-Este projeto é uma **Landing Page Institucional** para uma barbearia fictícia, desenvolvida como projeto final da disciplina de **Desenvolvimento de Websites** (Engenharia de Software).
+Este projeto é uma **Landing Page Institucional** para uma barbearia fictícia, desenvolvida como projeto da disciplina de **Desenvolvimento de Websites** (Segundo Período de Engenharia de Software).
 
 O foco principal foi a construção de um layout visualmente rico e interativo utilizando puramente **HTML e CSS**, explorando animações e posicionamento avançado sem o uso de frameworks ou JavaScript.
 
